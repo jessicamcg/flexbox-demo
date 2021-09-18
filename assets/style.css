@@ -1,0 +1,93 @@
+body {
+    background-color: #333940;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e867ed;
+    line-height: 1.8rem;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 90%;
+}
+
+header p {
+    color: white;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+}
+
+.flex-column {
+    flex: 1 0 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 10px;
+    border: 3px dotted white;
+}
+
+.card h2 {
+    position: realtive;
+    margin-top: -25px;
+    background-color: #333940;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.card p {
+    padding: 5px;
+    justify-content: space-evenly;
+}
+
+.card .code {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 102, 236, 0.6) 100%
+    );
+    border-radius: 5px;
+    padding: 1rem;   
+}
+
+footer {
+    text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .flex-column {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .flex-column {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+}
+
