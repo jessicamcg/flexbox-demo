@@ -1,7 +1,7 @@
 body {
-    background-color: #3d3d3b;
+    background-color: #f7e7d6;
     font-family: Arial, Helvetica, sans-serif;
-    color: #b45e50;
+    color: #0e333e;
     line-height: 1.8rem;
 }
 
@@ -13,7 +13,7 @@ header {
 }
 
 header p {
-    color: white;
+    color: #508d7c;
     padding: 1rem;
 }
 
@@ -50,7 +50,7 @@ main {
     justify-content: flex-start;
     min-height: 100%;
     padding: 10px;
-    border: 3px dotted white;
+    border: 3px dotted #508d7c;
     width: 100%;
     transition: all 0.5s ease-in-out;
 }
@@ -58,8 +58,8 @@ main {
 .card h2 {
     position: realtive;
     margin-top: -25px;
-    background-color: #3d3d3b;
-    border: 2px solid white;
+    background-color: #f7e7d6;
+    border: 2px solid #508d7c;
     border-radius: 8px;
     padding: 0.8rem;
     transition: all 0.5s ease-in-out;
@@ -74,8 +74,8 @@ main {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     background-image: linear-gradient(
-        #a87b4c 0%,
-        #eda75b 100%
+        #508d7c 0%,
+        #c6d8b5 100%
     );
     border-radius: 5px;
     padding: 1rem;   
@@ -92,8 +92,8 @@ footer {
 .card:hover,
 .card:hover h2 {
     box-shadow: inset 0px 0px 8px
-    #863f43, 0 0 15px
-    #783338;
+    #85ada0, 0 0 15px
+    #386153;
 }
 
 @media screen and (min-width:768px) {
